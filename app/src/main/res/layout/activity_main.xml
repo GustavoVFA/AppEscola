@@ -14,7 +14,7 @@
         android:layout_margin="25sp"
         android:textSize="30sp"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/black"/>
+        android:textColor="@color/teal_200"/>
 
 
 </LinearLayout>
