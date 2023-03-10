@@ -11,28 +11,37 @@
         android:layout_width="200dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
         android:scaleType="centerInside"
         android:src="@drawable/logo" />
+
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/person"
-        android:hint="Insira um Usuário" />
+        android:hint="Insira seu E-mail"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        android:padding="10sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/lock"
-        android:hint="Insira a senha" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Entrar"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sair"/>
+        android:hint="Insira sua Senha"
+        android:inputType="numberPassword"
+        android:maxLength="30"
+        android:padding="10sp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair" />
 
 </LinearLayout>
